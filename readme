@@ -1,1 +1,12 @@
 question 3
+
+The pattern chosen to implement the question is the composite pattern. 
+The reason we chose the pattern is because it’s used to represent tree like 
+structures between more or less the same types of objects. The employees 
+attribute in an employee object can be thought of as branches in a tree 
+structure where the root for those branches is the employee object in which 
+they reside. The same goes for the other employees that might be found inside 
+the employees attributes of each branch employees.
+
+This pattern also makes it very easy to compute collective salary of employees 
+under a particular employee by using efficient tree traversal algorithms.
